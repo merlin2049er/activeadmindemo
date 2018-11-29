@@ -12,6 +12,11 @@ ActiveAdmin.register Post do
 #   permitted
 # end
 
+  scope :all
+  scope :published
+  scope :unpublished
+
+
 action_item :publish, only: :show do
 	link_to "Publish", publish_admin_post_path(post), method: :put if !post.published_at?
 
