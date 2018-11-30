@@ -37,6 +37,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 
 gem 'activeadmin', '~> 1.4', '>= 1.4.2'
+gem 'active_admin_flat_skin'
 gem 'inherited_resources', '~> 1.9'
 gem 'devise', '~> 4.5'
 
